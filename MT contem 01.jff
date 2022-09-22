@@ -19,9 +19,9 @@
 		<!--The list of transitions.-->
 		<transition>
 			<from>0</from>
-			<to>1</to>
-			<read>0</read>
-			<write>0</write>
+			<to>0</to>
+			<read>1</read>
+			<write>1</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -33,9 +33,9 @@
 		</transition>
 		<transition>
 			<from>0</from>
-			<to>0</to>
-			<read>1</read>
-			<write>1</write>
+			<to>1</to>
+			<read>0</read>
+			<write>0</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -43,13 +43,6 @@
 			<to>2</to>
 			<read>1</read>
 			<write>1</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>1</to>
-			<read>0</read>
-			<write>0</write>
 			<move>R</move>
 		</transition>
 	</automaton>
